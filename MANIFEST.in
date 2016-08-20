@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rotary *.css
+recursive-include rotary *.csv
+recursive-include rotary *.html
+recursive-include rotary *.ico
+recursive-include rotary *.js
+recursive-include rotary *.json
+recursive-include rotary *.md
+recursive-include rotary *.png
+recursive-include rotary *.py
+recursive-include rotary *.svg
+recursive-include rotary *.txt
+recursive-exclude rotary *.pyc
